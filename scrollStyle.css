@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: #232323;
+  overflow: hidden;
+}
+
+.btn {
+  height: 25px;
+  width: 25px;
+  float: right;
+  cursor: pointer;
+  
+  
+}
+
+.box {
+  border-radius: 0px 20px 20px 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 0;
+  background: white;
+  transition: 0.3s;
+}
+
+/* hidden for now */
+ul {
+  font-size: 0px;
+}
+
+.show {
+  font-size: 16px;
+  
+}
+h1 {
+  color: #4672B2;
+  cursor: pointer;
+}
+
+h1:hover {
+  text-decoration: underline red;
+  
+}
